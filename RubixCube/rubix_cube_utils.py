@@ -46,11 +46,11 @@ class RubixCube(modules.ModulesPackage):
         def init_color_data(self):
             """Initializes and stores all forms and instances of data and variables related to
             colors"""
-            self._color_ranges = [[(7, 12), (225, 255), (100, 255)],
-                                  [(45, 65), (150, 255), (20, 100)],
-                                  [(17, 26), (120, 255), (75, 255)],
-                                  [(0, 60), (0, 90), (100, 190)],
-                                  [(110, 140), (0, 255), (50, 100)]]
+            self._color_ranges = [[(0, 15), (130, 255), (125, 255)],
+                                  [(45, 74), (137, 252), (69, 161)],
+                                  [(15, 50), (75, 224), (88, 255)],
+                                  [(0, 180), (0, 80), (140, 255)],
+                                  [(85, 152), (110, 255), (70, 170)]]
             self._colors_max_values = [360//2, 255, 255]
             self._colors_names = ["H", "S", "V"]
             self._colors_keys = ["orange", "green", "yellow", "white", "blue", "red"]
