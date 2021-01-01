@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""This script recognizes hand gestures and number of the fingers held up"""
+"""This script catalogs and plots the faces of a 3x3x3 rubix cube"""
 
 import cv2
 from rubix_cube_utils import RubixCube
