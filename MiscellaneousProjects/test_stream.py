@@ -2,8 +2,13 @@ import cv2
 
 cap = cv2.VideoCapture(0)
 
+cap.set(3, 1920)
+cap.set(4, 1080)
+
 while cap.isOpened():
     ret, frame = cap.read()
+
+    frame = cv2.flip(frame, -1)
     
     #imgGray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     #ret, thresh = cv2.threshold(imgGray, 127, 255, 0)
